@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@example.com",
+    "role": "Administrator",
+    "status": "Active",
+    "lastLogin": "2024-03-15T10:30:00",
+    "country": "United States",
+    "department": "IT"
+  },
+  {
+    "id": 2,
+    "username": "manager",
+    "email": "manager@example.com",
+    "role": "Manager",
+    "status": "Active",
+    "lastLogin": "2024-03-14T15:45:00",
+    "country": "United Kingdom",
+    "department": "Operations"
+  },
+  {
+    "id": 3,
+    "username": "user1",
+    "email": "user1@example.com",
+    "role": "User",
+    "status": "Active",
+    "lastLogin": "2024-03-13T09:20:00",
+    "country": "Canada",
+    "department": "Sales"
+  },
+  {
+    "id": 4,
+    "username": "user2",
+    "email": "user2@example.com",
+    "role": "User",
+    "status": "Inactive",
+    "lastLogin": "2024-03-10T14:10:00",
+    "country": "Australia",
+    "department": "Marketing"
+  },
+  {
+    "id": 5,
+    "username": "editor",
+    "email": "editor@example.com",
+    "role": "Editor",
+    "status": "Active",
+    "lastLogin": "2024-03-15T08:15:00",
+    "country": "India",
+    "department": "Content"
+  },
+  {
+    "id": 6,
+    "username": "analyst",
+    "email": "analyst@example.com",
+    "role": "Analyst",
+    "status": "Active",
+    "lastLogin": "2024-03-12T11:25:00",
+    "country": "Germany",
+    "department": "Analytics"
+  },
+  {
+    "id": 7,
+    "username": "support",
+    "email": "support@example.com",
+    "role": "Support",
+    "status": "Active",
+    "lastLogin": "2024-03-14T16:30:00",
+    "country": "France",
+    "department": "Customer Support"
+  },
+  {
+    "id": 8,
+    "username": "designer",
+    "email": "designer@example.com",
+    "role": "Designer",
+    "status": "Active",
+    "lastLogin": "2024-03-13T14:15:00",
+    "country": "Italy",
+    "department": "Design"
+  },
+  {
+    "id": 9,
+    "username": "developer",
+    "email": "developer@example.com",
+    "role": "Developer",
+    "status": "Active",
+    "lastLogin": "2024-03-15T09:45:00",
+    "country": "Japan",
+    "department": "Development"
+  },
+  {
+    "id": 10,
+    "username": "hr",
+    "email": "hr@example.com",
+    "role": "HR",
+    "status": "Active",
+    "lastLogin": "2024-03-14T13:20:00",
+    "country": "Brazil",
+    "department": "Human Resources"
+  }
+]

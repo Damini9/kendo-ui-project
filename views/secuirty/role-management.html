@@ -1,0 +1,45 @@
+<body>
+  <div class="k-d-flex" style="gap: 16px; height: 100vh">
+    <!-- Left Side - Role List -->
+    <div class="k-d-flex-col" style="width: 500px; height: 100%; gap: 8px; border-right: 1px solid #e5e5e5; padding-right: 16px">
+      <div class="k-d-flex" style="justify-content: space-between; align-items: center">
+        <div style="width: 200px">
+          <input id="roleSearchBar" />
+        </div>
+        <button class="k-button k-button-md k-rounded-md k-button-solid k-button-solid-primary">
+          Add Role
+        </button>
+      </div>
+      <div id="roleList" style="flex: 1; height: calc(100% - 50px)">
+        <div id="roleListGrid" style="height: 100%"></div>
+      </div>
+    </div>
+
+    <!-- Right Side - Tabs -->
+    <div style="flex: 1; height: 100%">
+      <div id="roleTabs" style="height: 100%">
+        <ul>
+          <li>Users</li>
+          <li>Permissions</li>
+          <li>Audit Trail</li>
+          <li>History</li>
+        </ul>
+        <div>
+          <p>Users content</p>
+        </div>
+        <div>
+          <p>Permissions content</p>
+        </div>
+        <div>
+          <p>Audit Trail content</p>
+        </div>
+        <div>
+          <p>History content</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ViewModel JS -->
+  <script src="../../viewmodels/security-role-management.js"></script>
+</body>

@@ -1,0 +1,112 @@
+[
+  {
+    "status": "Active",
+    "country": "Netherlands",
+    "abbreviation": "NL",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "System",
+    "createdOn": "2023-06-20",
+    "modifiedBy": "Noah",
+    "modifiedOn": "2024-03-05"
+  },
+  {
+    "status": "Active",
+    "country": "Belgium",
+    "abbreviation": "BE",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "Admin",
+    "createdOn": "2023-08-10",
+    "modifiedBy": "Ava",
+    "modifiedOn": "2024-01-10"
+  },
+  {
+    "status": "Active",
+    "country": "Germany",
+    "abbreviation": "DE",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "Admin",
+    "createdOn": "2023-01-15",
+    "modifiedBy": "John",
+    "modifiedOn": "2024-03-10"
+  },
+  {
+    "status": "Inactive",
+    "country": "United Kingdom",
+    "abbreviation": "UK",
+    "region": "Europe",
+    "eu": false,
+    "createdBy": "Admin",
+    "createdOn": "2022-06-05",
+    "modifiedBy": "Alice",
+    "modifiedOn": "2023-11-21"
+  },
+  {
+    "status": "Active",
+    "country": "France",
+    "abbreviation": "FR",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "System",
+    "createdOn": "2021-09-10",
+    "modifiedBy": "Mark",
+    "modifiedOn": "2023-12-01"
+  },
+  {
+    "status": "Active",
+    "country": "Italy",
+    "abbreviation": "IT",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "Admin",
+    "createdOn": "2022-02-17",
+    "modifiedBy": "Sophia",
+    "modifiedOn": "2023-07-22"
+  },
+  {
+    "status": "Inactive",
+    "country": "Norway",
+    "abbreviation": "NO",
+    "region": "Europe",
+    "eu": false,
+    "createdBy": "System",
+    "createdOn": "2023-03-11",
+    "modifiedBy": "Liam",
+    "modifiedOn": "2024-02-14"
+  },
+  {
+    "status": "Active",
+    "country": "Spain",
+    "abbreviation": "ES",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "Admin",
+    "createdOn": "2022-10-19",
+    "modifiedBy": "Olivia",
+    "modifiedOn": "2024-01-30"
+  },
+  {
+    "status": "Active",
+    "country": "Sweden",
+    "abbreviation": "SE",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "Admin",
+    "createdOn": "2021-12-12",
+    "modifiedBy": "Lucas",
+    "modifiedOn": "2024-04-01"
+  },
+  {
+    "status": "Inactive",
+    "country": "Switzerland",
+    "abbreviation": "CH",
+    "region": "Europe",
+    "eu": false,
+    "createdBy": "System",
+    "createdOn": "2020-07-03",
+    "modifiedBy": "Emma",
+    "modifiedOn": "2023-05-15"
+  }
+]

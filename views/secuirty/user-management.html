@@ -1,0 +1,44 @@
+<body>
+  <div class="k-d-flex" style="gap: 16px; height: 100%">
+    <!-- Left Side - User List -->
+    <div class="k-d-flex-col" style="width: 500px; gap: 8px; border-right: 1px solid #e5e5e5; padding-right: 16px">
+      <div  style="width: 200px">
+        <input id="userSearchBar"  />
+      </div>
+      <div id="userList" style="flex: 1; height: calc(100vh - 100px)">
+        <div id="userListGrid"></div>
+      </div>
+    </div>
+
+    <!-- Right Side - Tabs -->
+    <div style="flex: 1">
+      <div id="userTabs">
+        <ul>
+          <li>Roles</li>
+          <li>Product Assignment</li>
+          <li>License Information</li>
+          <li>Audit Trail</li>
+          <li>History</li>
+        </ul>
+        <div>
+          <p>Roles content</p>
+        </div>
+        <div>
+          <p>Product Assignment content</p>
+        </div>
+        <div>
+          <p>License Information content</p>
+        </div>
+        <div>
+          <p>Audit Trail content</p>
+        </div>
+        <div>
+          <p>History content</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ViewModel JS -->
+  <script src="../../viewmodels/security-user-management.js"></script>
+</body>

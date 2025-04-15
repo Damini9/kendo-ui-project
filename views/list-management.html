@@ -1,0 +1,37 @@
+<body>
+  <div id="listManagementContainer" class="k-d-flex" style="gap: 16px">
+    <!-- Sidebar Menu  -->
+
+    <div id="sidebar">
+      <input id="searchBox" />
+
+      <ul id="sidebarList" style="list-style: none; padding: 0">
+        <li class="sidebar-item" data-type="country">Country</li>
+        <li class="sidebar-item" data-type="entity">Entity</li>
+        <li class="sidebar-item" data-type="indication">Indication</li>
+        <li class="sidebar-item" data-type="origin">Origin</li>
+      </ul>
+    </div>
+
+    <!-- Grid Container -->
+
+    <div id="gridContainer">
+      <div style="width: 200px">
+        <input id="searchGridBar" />
+      </div>
+      <div id="gridContainer" style="flex: 1">
+        <!-- Default Grid -->
+        <div id="grid-country" class="grid-block"></div>
+
+        <!-- Dynamic Grid -->
+        <div
+          id="grid-dynamic"
+          class="grid-block"
+          style="margin-top: 24px"
+        ></div>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- ViewModel JS -->
+<script src="../viewmodels/list-management.js"></script>

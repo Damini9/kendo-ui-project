@@ -1,0 +1,46 @@
+[
+  {
+    "status": "Active",
+    "country": "Germany",
+    "abbreviation": "DE",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "Admin",
+    "createdOn": "2024-01-01",
+    "modifiedBy": "User1",
+    "modifiedOn": "2024-02-01"
+  },
+  {
+    "status": "Inactive",
+    "country": "India",
+    "abbreviation": "IN",
+    "region": "Asia",
+    "eu": false,
+    "createdBy": "Admin",
+    "createdOn": "2024-01-05",
+    "modifiedBy": "User2",
+    "modifiedOn": "2024-02-10"
+  },
+  {
+    "status": "Active",
+    "country": "Netherlands",
+    "abbreviation": "NL",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "System",
+    "createdOn": "2023-06-20",
+    "modifiedBy": "Noah",
+    "modifiedOn": "2024-03-05"
+  },
+  {
+    "status": "Active",
+    "country": "Belgium",
+    "abbreviation": "BE",
+    "region": "Europe",
+    "eu": true,
+    "createdBy": "Admin",
+    "createdOn": "2023-08-10",
+    "modifiedBy": "Ava",
+    "modifiedOn": "2024-01-10"
+  }
+]

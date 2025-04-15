@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Admin Portal</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://kendo.cdn.telerik.com/themes/10.2.0/default/default-main.css"
+      rel="stylesheet"
+    />
+    <script src="https://kendo.cdn.telerik.com/2025.1.227/js/kendo.all.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="license-key.js"></script>
+
+    <!-- ViewModels -->
+    <script src="viewmodels/list-management.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="mainTab">
+        <ul class="tab-main">
+          <li>ASR</li>
+          <li class="k-state-active">Admin</li>
+        </ul>
+        <div>
+          <p>ASR Module Coming Soon...</p>
+        </div>
+        <div>
+          <!-- Admin Tabs -->
+          <div id="adminTabs">
+            <ul>
+              <li class="k-state-active">List Management</li>
+              <li>Security</li>
+              <li>Products</li>
+            </ul>
+            <div>
+              <div id="listManagementContent"></div>
+            </div>
+            <div>
+              <div id="secuirtyContent"></div>
+            </div>
+            <div>
+              <div id="productsContent"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $("#mainTab").kendoTabStrip({ animation: false });
+        $("#adminTabs")
+          .kendoTabStrip({
+            animation: false,
+            activate: function (e) {
+              const index = $(e.item).index();
+              if (index === 0) {
+                $("#listManagementContent").load("views/list-management.html");
+              }
+              if (index === 1) {
+                $("#secuirtyContent").load("views/secuirty/security.html");
+              }
+              if (index === 2) {
+                $("#productsContent").load("views/products.html");
+              }
+            },
+          })
+          .data("kendoTabStrip") //  Load List Management by default on page load
+          .select(0);
+      });
+    </script>
+  </body>
+</html>
